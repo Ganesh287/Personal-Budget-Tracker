@@ -55,7 +55,8 @@ Material Design Components provides UI components following the Material Design 
 
 ### ConstraintLayout
 
-''' implementation 'androidx.constraintlayout:constraintlayout:2.1.4' '''
+`implementation 'androidx.constraintlayout:constraintlayout:2.1.4'`
+
 ConstraintLayout is a flexible layout manager for Android that allows you to create complex layouts with a flat view hierarchy.
 
 ### Firebase Authentication
