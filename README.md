@@ -7,8 +7,9 @@ The Personal Budget Tracker is a finance management application that allows user
 
 ## Folder Structure:
 
-res: Contains XML files for the frontend.
-java: Contains Java files for the backend.
+_res_: Contains XML files for the frontend.
+
+_java_: Contains Java files for the backend.
 
 ## Connecting to Firebase:
 
