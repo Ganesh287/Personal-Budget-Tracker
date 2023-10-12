@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user_register_here">New user? Register here.</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="cash_track">Cash Track</string>
+    <string name="password1">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="request_otp">Request OTP</string>
+    <string name="register1">Register</string>
+    <string name="username">UserName</string>
+    <string name="log_out">Log Out</string>
+    <string name="_0_00">0.00</string>
+    <string name="rupee_symbol">₹ </string>
+    <string name="balance">Total Balance</string>
+    <string name="total_expense">Total Expense</string>
+    <string name="total_income">Total Income</string>
+    <string name="total_income1">Total Income</string>
+    <string name="channel_name">Balance Alert</string>
+    <string name="channel_description">"Your balance is less than limit "</string>
+
+
+    <string-array name="options_array">
+        <item>Select the Transactions TimeLine</item>
+        <item>Today</item>
+        <item>This Week</item>
+        <item>This Month</item>
+    </string-array>
+
+    <string-array name="income_options">
+        <item>Select Income Type</item>
+        <item>Home</item>
+        <item>Salary</item>
+        <item>Business</item>
+        <item>Gifts</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="expense_options">
+        <item>Select Expense Type</item>
+        <item>Food</item>
+        <item>Entertainment</item>
+        <item>Groceries</item>
+        <item>shopping</item>
+        <item>rent</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

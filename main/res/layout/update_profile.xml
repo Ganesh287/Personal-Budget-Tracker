@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Profile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        />
+<!--<com.google.android.material.textfield.TextInputLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content">-->
+<!--    <EditText-->
+<!--        android:id="@+id/usernameEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="New Username"-->
+<!--        android:inputType="text"-->
+<!--        android:layout_marginBottom="16dp" />-->
+<!--</com.google.android.material.textfield.TextInputLayout>-->
+<!--    <Button-->
+<!--        android:id="@+id/updateUserNameButton"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Update Username"-->
+<!--        android:textAllCaps="true" />-->
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <EditText
+    android:id="@+id/OldpasswordEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Old Password"
+    android:inputType="textPassword"
+    android:layout_marginBottom="24dp" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+    android:id="@+id/passwordEditText"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="New Password"
+    android:inputType="textPassword"
+    android:layout_marginBottom="24dp" />
+</com.google.android.material.textfield.TextInputLayout>
+  <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <EditText
+          android:id="@+id/ConfirmpasswordEditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Confirm New Password"
+          android:inputType="textPassword"
+          android:layout_marginBottom="24dp" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/updatePasswordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update password"
+        android:textAllCaps="true" />
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<!-- item_income_transaction.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginVertical="10dp"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <TextView
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:text="&#8942;"
+        android:textSize="17sp"
+        android:id="@+id/txt_option"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:focusable="true" />
+    </LinearLayout>
+    <!-- Income Type -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textViewBalanceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textViewAmount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:textAlignment="viewEnd" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="&#8942;"
+            android:textSize="0sp"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <!-- Date and Time -->
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_gravity="start"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            android:gravity="end"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

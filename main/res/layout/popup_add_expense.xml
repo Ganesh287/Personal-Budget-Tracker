@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/amountEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/dateEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:inputType="none"
+        android:focusable="false" />
+
+    <EditText
+        android:id="@+id/timeEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:inputType="time" />
+
+    <Spinner
+        android:id="@+id/addExpenseSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_spinner_arrow" />
+
+    <EditText
+        android:id="@+id/optionalEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Optional"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/okButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>
