@@ -32,7 +32,7 @@ Explore and customize the XML layout files in the res/layout directory to match 
 ### Firebase Database
 
 ```bash 
-implementation 'com.google.firebase:firebase-database:20.2.2'
+implementation 'com.google.firebase:firebase-database:20.2.2' ```
 
 The Firebase Database dependency allows for real-time data synchronization and storage in the Firebase cloud. It is used for storing and managing data in the application.
 
