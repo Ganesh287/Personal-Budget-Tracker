@@ -8,4 +8,4 @@ In the main folder go to res in that go to layout which contain the full fronten
 in java folder you can find all the java files for backend
 
 Make sure you must connect it to the firebase database,because the code only works for firebase.
-first create a project in firebase and then connect it to your code and the use it.
+first create a project in firebase and then connect it to your code and the use it
