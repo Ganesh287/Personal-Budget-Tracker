@@ -66,7 +66,7 @@ Firebase Authentication provides a simple way to authenticate users in your app,
 
 ### Firebase Firestore
 
-```bash implementation 'com.google.firebase:firebase-firestore:24.6.1' bash```
+```bash implementation 'com.google.firebase:firebase-firestore:24.6.1' 
 
 Firebase Firestore is a NoSQL cloud database that allows for efficient storage and synchronization of app data. It is used for managing user data and transactions.
 
