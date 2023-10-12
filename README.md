@@ -1,11 +1,31 @@
-# Personal-Budget-Tracker
+#Personal Budget Tracker Application
 
-this application is used for tracking our budget in day to day life that will help in managing our finances.
-it has options to add incom and expenses ,set a limit to notify you when the balance goes down  the limit set by you and all transactions can be viewed edited and can also be deleted.
-you can also update your profile password and delete your account.
 
-In the main folder go to res in that go to layout which contain the full frontend in xml 
-in java folder you can find all the java files for backend
+##Description:
 
-Make sure you must connect it to the firebase database,because the code only works for firebase.
-first create a project in firebase and then connect it to your code and the use it
+The Personal Budget Tracker is a finance management application that allows users to keep track of their daily income and expenses. It offers features such as setting budget limits, receiving notifications for low balances, and managing transactions. Users can also update their profiles, change passwords, and delete their accounts.
+
+##Folder Structure:
+
+res: Contains XML files for the frontend.
+java: Contains Java files for the backend.
+
+##Connecting to Firebase:
+
+-Create a Firebase project.
+-Obtain the necessary credentials (API key, database URL, etc.).
+-Update the Firebase configuration in the code to connect to your project.
+
+##Additional Setup:
+Ensure that you have a working IDE for Java development.
+
+##Usage Instructions:
+
+###Backend Logic:
+Review and modify the Java files in the java directory to suit your specific needs.
+
+###Frontend Design:
+Explore and customize the XML layout files in the res/layout directory to match your UI preferences.
+
+
+
